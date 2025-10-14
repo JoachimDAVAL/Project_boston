@@ -1,1 +1,22 @@
+# Environnement virtuel
 env_dataops/
+
+# Fichiers Python compilés
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Fichiers de base de données
+*.db
+*.sqlite3
+
+# Metadata et fichiers de configuration
+*.egg-info/
+.DS_Store
+*.env
+.vscode/
+*.ipynb_checkpoints
+
+# CSV ou fichiers de sortie générés
+*.csv
