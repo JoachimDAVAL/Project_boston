@@ -25,4 +25,5 @@ jobs:
           pip install pytest pandas numpy
 
       - name: Run tests
-        run: pytest -v test/test_user.py
+        run: pytest -v tests\test.py
+        
