@@ -1,5 +1,4 @@
 import pandas as pd
-import pytest
 from BostonSalary.utils.helpers import extract_boston_salary
 from unittest.mock import patch, Mock
 from etl.models.user import analyse
