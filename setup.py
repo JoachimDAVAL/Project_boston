@@ -7,6 +7,7 @@ setup(
     install_requires=[
         "pandas",
         "numpy",
+        "requests",
     ],
     python_requires=">=3.8",
 )
