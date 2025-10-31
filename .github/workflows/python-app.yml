@@ -24,17 +24,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest pandas numpy
 
-      - name: Install package
-        run: pip install -e .
-
-      - name: Debug test discovery
-        run: |
-          echo "=== Structure du dossier tests ==="
-          ls -la tests/
-          echo "=== Contenu du fichier de test ==="
-          head -20 tests/*.py
-          echo "=== Test collection verbose ==="
-          pytest --collect-only -v tests/
-
       - name: Run tests
         run: pytest -v tests/
