@@ -1,8 +1,8 @@
 import pandas as pd
-from BostonSalary.utils.helpers import extract_boston_salary
+from etl.utils.helpers import extract_boston_salary
 from unittest.mock import patch, Mock
 from etl.models.user import analyse
-from BostonSalary.utils.transform import transform
+from etl.utils.transform import transform
 
 
 def test_extract_boston_salary():
